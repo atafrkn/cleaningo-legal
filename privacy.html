@@ -16,52 +16,34 @@
 </head>
 <body>
 
-<!--
-  ⚠️ v1.1 NOTU — MAIL GERİ GELDİĞİNDE OKU
-  Bu metinde Mail temizliğinden (Gmail / iCloud Mail) hiç söz edilmiyor,
-  çünkü özellik v1.0'da kullanıcıya kapalı: kod yerinde duruyor ama hiçbir
-  ekrandan erişilemiyor. Olmayan bir özelliği anlatan gizlilik politikası hem
-  yanlış olur hem de App Store incelemesinde "bu nerede?" sorusuna yol açar.
-
-  Mail v1.1'de açıldığında GERİ EKLENMESİ ŞART olanlar (eski metin git
-  geçmişinde, 16 Ağu 2026 öncesi sürümde):
-    - "Mail temizliği (isteğe bağlı)" bölümü: Gmail API kapsamları
-      (gmail.modify, gmail.settings.basic), iCloud IMAP + Keychain'deki
-      uygulamaya özel şifre, gönderen logoları için favicon servisi
-    - Google API Hizmetleri Kullanıcı Verileri Politikası / Limited Use beyanı
-      — bu beyan Google'ın doğrulama başvurusu için ZORUNLU
-    - Özet paragrafında ve Kullanım Koşulları'nda mail'in geri eklenmesi
--->
-
 <h1>Cleaningo — Gizlilik Politikası</h1>
-<p class="updated">Son güncelleme: 14 Eylül 2026 · <a href="#english">English below</a></p>
+<p class="updated">Son güncelleme: 5 Ekim 2026 · <a href="#english">English below</a></p>
 
 <h2>Özet</h2>
-<p>Cleaningo'nun kendi sunucusu yoktur. Fotoğraflarınız, videolarınız, kişileriniz ve dosyalarınız telefonunuzdan çıkmaz; tüm içerik analizi cihaz üzerinde yapılır. İsteğe bağlı hesap girişi ve giriş yapan kullanıcıların istatistik yedeği ağ kullanır. Ayrıca uygulama kararlılığını iyileştirmek için çökme tanılamaları ilk kurulumda açıktır ve Ayarlar'dan kapatılabilir.</p>
+<p>Cleaningo içerik analizini cihazınızda yapar; fotoğraf, video, rehber ve dosya içeriklerini kendi hizmetlerine yüklemez. İsteğe bağlı giriş ve bulut ilerleme yedeği Google/Firebase hizmetlerini kullanır. Çökme raporlarının gönderilmesi varsayılan kapalıdır ve yalnız Ayarlar'dan paylaşmayı açarsanız etkinleşir. Kendi iCloud Fotoğraflar ve rehber hesabı eşzamanlama tercihleriniz ayrı işler.</p>
 
 <h2>Fotoğraflar ve videolar</h2>
-<p>Galeri analizi (tekrar, benzer, bulanık, bozuk tespiti dahil) tamamen cihazınızda çalışır. Hiçbir fotoğraf veya video, bize ya da üçüncü bir tarafa yüklenmez. Fotoğraflarınıza yalnızca siz izin verdikten sonra erişiriz; iOS'un "seçili fotoğraflar" seçeneğini tercih ederseniz Cleaningo yalnızca seçtiklerinizi görür.</p>
+<p>Galeri analizi (tekrar, benzer, bulanık, bozuk tespiti dahil) tamamen cihazınızda çalışır. Cleaningo fotoğraf veya videolarınızı kendi hizmetlerine yüklemez. iCloud Fotoğraflar açıksa Apple'ın eşzamanlaması kendi ayarlarınıza göre devam eder. Fotoğraflarınıza yalnızca siz izin verdikten sonra erişiriz; iOS'un "seçili fotoğraflar" seçeneğini tercih ederseniz Cleaningo yalnızca seçtiklerinizi görür.</p>
 
 <h2>Kişiler (Rehber)</h2>
-<p>Tekrarlanan kişi bulma, birleştirme ve silme, Apple'ın Contacts çerçevesiyle tamamen cihazınızda yapılır. Kişileriniz hiçbir yere gönderilmez. Rehber izni yalnızca Rehber ekranını kullanmak istediğinizde istenir.</p>
+<p>Tekrarlanan kişi bulma, birleştirme ve silme, Apple'ın Contacts çerçevesiyle tamamen cihazınızda yapılır. Cleaningo kişilerinizi kendi hizmetlerine yüklemez; rehber hesabınızın eşzamanlaması kendi ayarlarınıza göre devam eder. Rehber izni yalnızca Rehber ekranını kullanmak istediğinizde istenir. Sınırlı izinle yalnız seçtiğiniz kişiler analiz edilir ve yeni yerel yedeğe dahil edilir. Geri yüklemede, erişilmeyen kişilerle kopya oluşturmamak için tam erişim gerekir.</p>
 
 <h2>Dosyalar</h2>
-<p>Dosya temizliği yalnızca sizin seçtiğiniz klasörlere erişir ve tamamen cihaz üzerinde çalışır. Dosya içerikleri veya adları hiçbir yere gönderilmez.</p>
+<p>Dosya temizliği yalnızca sizin seçtiğiniz klasörlere erişir ve tamamen cihaz üzerinde çalışır. Cleaningo dosya içeriklerini veya adlarını kendi hizmetlerine göndermez. Seçtiğiniz klasörün iCloud Drive veya başka bir dosya sağlayıcısıyla eşzamanlanması kendi ayarlarınıza göre devam eder.</p>
 
 <h2>Ana ekran widget'ı</h2>
 <p>Widget yalnızca anonim bir özet okur: kazanılabilir alan (GB), temizlik yüzdesi ve sayaçlar. Bu özet cihazınızdaki paylaşılan bir uygulama alanında tutulur, hiçbir zaman internete gönderilmez ve içinde fotoğraf, kişi veya kimlik bilgisi bulunmaz.</p>
 
+<h2>Hizmet sağlayıcılar ve yerel yedekler</h2>
+<p>Kimlik doğrulama ve bulut yedekleme için ad, e-posta, kullanıcı kimliği ve temizlik toplamları/seri/rozet/XP/seviye Google/Firebase tarafından işlenebilir. Kimlik doğrulama SDK'ları güvenlik ve işlev için teknik cihaz/kullanım/tanılama bilgilerini de işleyebilir. Apple, App Store satın alma işlemlerini yönetir. Bu hizmetlere gönderilen veriler reklam veya veri satışı için kullanılmaz. Cleaningo içindeki rehber yedekleri, geçici dosya çöpü ve profil görselleri iOS cihaz yedeğinden hariç tutulur; seçtiğiniz kaynak klasörün kendi bulut hizmeti ayrı çalışır.</p>
 <h2>Hesap (isteğe bağlı)</h2>
-<p>E-posta, Google veya Apple ile giriş yaparsanız kimlik doğrulama Firebase Authentication (Google) tarafından yürütülür. Şifrenizi görmeyiz ve saklamayız. Giriş yaptığınızda yalnızca kullanım toplamları — temizlenen öğe sayısı, kazanılan alan, seri ve rozetler — Firebase'e yedeklenir; bu yedek hiçbir zaman fotoğraf, kişi veya dosya içeriği içermez. Giriş yapmadan uygulamanın tamamını kullanabilirsiniz. Hesabınızı ve bulut verilerinizi Profil → Hesabı Sil ile kalıcı olarak silebilirsiniz.</p>
+<p>E-posta, Google veya Apple ile giriş yaparsanız kimlik doğrulama Firebase Authentication (Google) tarafından yürütülür. E-posta ile girişte yazdığınız şifre Firebase'e doğrulama için iletilir ve Cleaningo tarafından kaydedilmez. Giriş yaptığınızda yalnızca kullanım toplamları — temizlenen öğe sayısı, kazanılan alan, seri, rozetler, XP ve seviye — Firebase'e yedeklenir; bu yedek hiçbir zaman fotoğraf, kişi veya dosya içeriği içermez. Giriş isteğe bağlıdır ve ücretli özellikleri açmaz. Profil → Hesabı Sil ile kimliğinizi doğruladıktan sonra bulut ilerleme verileri ve varsa eski davet kayıtları, ardından giriş hesabı silinir. Adım başarısızsa hata gösterilir ve tekrar silme denenebilir; bulut yedeği silme tamamlanana kadar durur. Yerel temizlik ilerlemesi ve galeri etkilenmez. App Store aboneliğiniz ayrıca iptal edilmelidir.</p>
 
 <h2>Abonelikler</h2>
-<p>Premium abonelikler App Store üzerinden işlenir. Ödeme bilgilerinizi Apple yönetir; bize hiçbir ödeme bilgisi ulaşmaz.</p>
+<p>Premium abonelikler App Store üzerinden işlenir. Ödeme kartı bilgilerinizi Apple yönetir ve Cleaningo'ya iletmez. Cleaningo aboneliğinizi doğrulamak için StoreKit'in sağladığı ürün, işlem ve abonelik durumunu kullanır.</p>
 
 <h2>Çökme raporları</h2>
-<p>Uygulamanın kararlılığını izlemek için Firebase Crashlytics kullanılır. Çökme tanılamaları ilk kurulumda açıktır. Çökme raporları kimliğinizle ilişkilendirilmez ve asla fotoğraf, kişi veya dosya içeriği içermez. Ayarlar → "Çökme tanılamalarını paylaş" anahtarıyla tamamen kapatabilirsiniz.</p>
-
-<h2>Davet kodları</h2>
-<p>Davet kodunuz, hesabınıza bağlı rastgele 6 karakterlik bir dizidir. Kod kullanımı sırasında kullanıcılar arasında hiçbir kişisel bilgi paylaşılmaz.</p>
+<p>Uygulamanın kararlılığını izlemek için Firebase Crashlytics kullanılır. Çökme raporlarının gönderilmesi varsayılan kapalıdır. Yalnız Ayarlar → "Çökme tanılamalarını paylaş" seçeneğini açarsanız çökme ve teknik tanılama verileri Firebase Crashlytics'e gönderilir. Gönderim kapalıyken cihazda rapor tutulabilir; paylaşmayı açmak bu kayıtları da gönderebilir. Cleaningo çökme raporlarına hesap kimliğinizi veya fotoğraf, kişi ve dosya içeriğini eklemez. Paylaşmayı aynı ayardan istediğiniz zaman kapatabilirsiniz; Cleaningo bu tercihi sonraki açılışlarda da korur.</p>
 
 <h2>Bildirimler</h2>
 <p>Bildirimlere izin verirseniz hatırlatmalar tamamen cihazınızda planlanır. Bildirim içerikleri için hiçbir sunucuya veri gönderilmez; izni istediğiniz zaman iOS Ayarlar'dan geri alabilirsiniz.</p>
@@ -81,34 +63,33 @@
 <hr class="lang-divider" id="english">
 
 <h1>Cleaningo — Privacy Policy</h1>
-<p class="updated">Last updated: September 14, 2026</p>
+<p class="updated">Last updated: October 5, 2026</p>
 
 <h2>Summary</h2>
-<p>Cleaningo has no servers of its own. Your photos, videos, contacts and files never leave your phone; all content analysis runs on-device. Optional account sign-in and stats backup for signed-in users use the network. Crash diagnostics are also enabled on first install to improve app stability and can be turned off in Settings.</p>
+<p>Cleaningo analyzes content on your device and does not upload photos, videos, contacts or file content to its services. Optional sign-in and cloud progress backup use Google/Firebase services. Crash reporting is off by default and starts only if you enable sharing in Settings. Your own iCloud Photos and contact-account synchronization settings operate separately.</p>
 
 <h2>Photos and videos</h2>
-<p>Gallery analysis (including duplicate, similar, blurry and broken detection) runs entirely on your device. No photo or video is ever uploaded to us or to any third party. We access your photos only after you grant permission; if you choose iOS's "selected photos" option, Cleaningo sees only what you selected.</p>
+<p>Gallery analysis (including duplicate, similar, blurry and broken detection) runs entirely on your device. Cleaningo does not upload photos or videos to its services. If iCloud Photos is enabled, Apple synchronization continues according to your own settings. We access your photos only after you grant permission; if you choose iOS's "selected photos" option, Cleaningo sees only what you selected.</p>
 
 <h2>Contacts</h2>
-<p>Duplicate detection, merging and deletion happen entirely on your device using Apple's Contacts framework. Your contacts are never sent anywhere. Contacts permission is requested only when you choose to use the Contacts screen.</p>
+<p>Duplicate detection, merging and deletion happen entirely on your device using Apple's Contacts framework. Cleaningo does not upload contacts to its services; your contact account's synchronization continues according to your own settings. Contacts permission is requested only when you choose to use the Contacts screen. Limited access restricts analysis and new local backups to selected contacts. Restore requires full access to avoid duplicating contacts outside your selection.</p>
 
 <h2>Files</h2>
-<p>File cleanup only accesses folders you explicitly pick, entirely on-device. File contents and names are never transmitted.</p>
+<p>File cleanup only accesses folders you explicitly pick, entirely on-device. Cleaningo does not send file contents or names to its services. A selected folder's synchronization with iCloud Drive or another file provider continues according to your own settings.</p>
 
 <h2>Home screen widget</h2>
 <p>The widget reads an anonymous summary only: reclaimable space (GB), a cleanliness percentage and counters. That summary lives in a shared app container on your device, is never sent over the internet, and contains no photos, contacts or identifiers.</p>
 
+<h2>Service providers and local backups</h2>
+<p>Google/Firebase may process your name, email, user identifier and account-linked cleaning totals/streak/badges/XP/level for authentication and progress backup. Authentication SDKs may also process technical device, usage and diagnostic information for security and operation. Apple manages App Store purchases. These transfers are not used for advertising or selling data. Contact backups, staged file trash and profile images inside Cleaningo are excluded from iOS device backup; a source folder's own cloud service operates separately.</p>
 <h2>Account (optional)</h2>
-<p>If you sign in with email, Google or Apple, authentication is handled by Firebase Authentication (Google). We never see or store your password. When signed in, only usage totals — items cleaned, space freed, streak and badges — are backed up to Firebase; this backup never includes photos, contacts or file content. You can use the entire app without signing in. You can permanently delete your account and cloud data from Profile → Delete account.</p>
+<p>If you sign in with email, Google or Apple, authentication is handled by Firebase Authentication (Google). The password you enter for email sign-in is sent to Firebase for verification and is not saved by Cleaningo. When signed in, only usage totals — items cleaned, space freed, streak, badges, XP and level — are backed up to Firebase; this backup never includes photos, contacts or file content. Signing in is optional and does not unlock paid features. From Profile → Delete account, confirm your identity to remove cloud progress and any retired invitation records, then the login account. Failed steps show an error and can be retried; cloud backup stays paused until deletion finishes. Local cleaning progress and your library remain. App Store subscriptions must be cancelled separately.</p>
 
 <h2>Subscriptions</h2>
-<p>Premium subscriptions are processed through the App Store. Apple handles your payment details; we never receive any payment information.</p>
+<p>Premium subscriptions are processed through the App Store. Apple handles payment-card details and does not pass them to Cleaningo. Cleaningo uses product, transaction and subscription status supplied by StoreKit to verify your subscription.</p>
 
 <h2>Crash reports</h2>
-<p>We use Firebase Crashlytics to monitor app stability. Crash diagnostics are enabled on first install. Crash reports are not linked to your identity and never contain photos, contacts or file content. You can opt out entirely via Settings → "Share crash diagnostics".</p>
-
-<h2>Referral codes</h2>
-<p>Your referral code is a random 6-character string linked to your account. Redeeming a code shares no personal information between users.</p>
+<p>We use Firebase Crashlytics to monitor app stability. Crash reporting is off by default. Only enabling Settings → "Share crash diagnostics" sends crash and technical diagnostic data to Firebase Crashlytics. Reports may be stored locally while sharing is off; enabling sharing can send those saved reports too. Cleaningo does not add your account identifier or photo, contact and file content to crash reports. You can disable sharing at any time in the same setting; Cleaningo preserves that choice for subsequent launches.</p>
 
 <h2>Notifications</h2>
 <p>If you allow notifications, reminders are scheduled entirely on your device. No data is sent to any server to produce them, and you can withdraw permission at any time in iOS Settings.</p>
