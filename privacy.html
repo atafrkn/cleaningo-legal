@@ -17,7 +17,7 @@
 <body>
 
 <h1>Cleaningo — Gizlilik Politikası</h1>
-<p class="updated">Son güncelleme: 7 Ekim 2026 · <a href="#english">English below</a></p>
+<p class="updated">Son güncelleme: 9 Ekim 2026 · <a href="#english">English below</a></p>
 
 <h2>Özet</h2>
 <p>Cleaningo içerik analizini cihazınızda yapar; fotoğraf, video, rehber ve dosya içeriklerini kendi hizmetlerine yüklemez. İsteğe bağlı giriş ve bulut ilerleme yedeği Google/Firebase hizmetlerini kullanır. Çökme raporlarının gönderilmesi varsayılan kapalıdır ve yalnız Ayarlar'dan paylaşmayı açarsanız etkinleşir. Kendi iCloud Fotoğraflar ve rehber hesabı eşzamanlama tercihleriniz ayrı işler.</p>
@@ -37,7 +37,10 @@
 <h2>Hizmet sağlayıcılar ve yerel yedekler</h2>
 <p>Kimlik doğrulama ve bulut yedekleme için ad, e-posta, kullanıcı kimliği ve temizlik toplamları/seri/rozet/XP/seviye Google/Firebase tarafından işlenebilir. Kimlik doğrulama SDK'ları güvenlik ve işlev için teknik cihaz/kullanım/tanılama bilgilerini de işleyebilir. Apple, App Store satın alma işlemlerini yönetir. Bu hizmetlere gönderilen veriler reklam veya veri satışı için kullanılmaz. Cleaningo içindeki rehber yedekleri, geçici dosya çöpü ve profil görselleri iOS cihaz yedeğinden hariç tutulur; seçtiğiniz kaynak klasörün kendi bulut hizmeti ayrı çalışır.</p>
 <h2>Hesap (isteğe bağlı)</h2>
-<p>E-posta, Google veya Apple ile giriş yaparsanız kimlik doğrulama Firebase Authentication (Google) tarafından yürütülür. E-posta ile girişte yazdığınız şifre Firebase'e doğrulama için iletilir ve Cleaningo tarafından kaydedilmez. Giriş yaptığınızda yalnızca kullanım toplamları — temizlenen öğe sayısı, kazanılan alan, seri, rozetler, XP ve seviye — Firebase'e yedeklenir; bu yedek hiçbir zaman fotoğraf, kişi veya dosya içeriği içermez. Giriş isteğe bağlıdır ve ücretli özellikleri açmaz. Profil → Hesabı Sil ile kimliğinizi doğruladıktan sonra bulut ilerleme verileri ve varsa eski davet kayıtları, ardından giriş hesabı silinir. Adım başarısızsa hata gösterilir ve tekrar silme denenebilir; bulut yedeği silme tamamlanana kadar durur. Yerel temizlik ilerlemesi ve galeri etkilenmez. App Store aboneliğiniz ayrıca iptal edilmelidir.</p>
+<p>E-posta, Google veya Apple ile giriş yaparsanız kimlik doğrulama Firebase Authentication (Google) tarafından yürütülür. E-posta ile girişte yazdığınız şifre Firebase'e doğrulama için iletilir ve Cleaningo tarafından kaydedilmez. Giriş yaptığınızda yalnızca kullanım toplamları — temizlenen öğe sayısı, kazanılan alan, seri, rozetler, XP ve seviye — Firebase'e yedeklenir; bu yedek hiçbir zaman fotoğraf, kişi veya dosya içeriği içermez. Giriş isteğe bağlıdır ve ücretli özellikleri açmaz. Profil → Hesabı Sil ile kimliğinizi doğruladıktan sonra bulut ilerleme verileri ve varsa eski davet kayıtları, ardından giriş hesabı silinir. Adım başarısızsa hata gösterilir ve tekrar silme denenebilir; bu cihazdaki yedekleme silme tamamlanana kadar durur. Yerel temizlik ilerlemesi ve galeri etkilenmez. App Store aboneliğiniz ayrıca iptal edilmelidir.</p>
+
+<h2>Geçici hesap silme koruması</h2>
+<p>Hesap silme korumasını kullanan sürümlerde, eski oturumların silinen bulut ilerlemesini geri getirmesini önlemek için yalnız hesap kimliğini ve silme tarihlerini içeren geçici bir güvenlik kaydı tutulur. Kayıt 48 saat sonra silinmek üzere planlanır; veritabanının otomatik temizliği ek süre alabilir. Bu kayıt ad, e-posta, ilerleme veya medya içeriği içermez. Hesap silme tamamlanamazsa bu cihazdaki yedekleme tekrar denemeye kadar duraklatılır.</p>
 
 <h2>Abonelikler</h2>
 <p>Premium abonelikler App Store üzerinden işlenir. Ödeme kartı bilgilerinizi Apple yönetir ve Cleaningo'ya iletmez. Cleaningo aboneliğinizi doğrulamak için StoreKit'in sağladığı ürün, işlem ve abonelik durumunu kullanır.</p>
@@ -65,7 +68,7 @@
 <hr class="lang-divider" id="english">
 
 <h1>Cleaningo — Privacy Policy</h1>
-<p class="updated">Last updated: October 7, 2026</p>
+<p class="updated">Last updated: October 9, 2026</p>
 
 <h2>Summary</h2>
 <p>Cleaningo analyzes content on your device and does not upload photos, videos, contacts or file content to its services. Optional sign-in and cloud progress backup use Google/Firebase services. Crash reporting is off by default and starts only if you enable sharing in Settings. Your own iCloud Photos and contact-account synchronization settings operate separately.</p>
@@ -85,7 +88,10 @@
 <h2>Service providers and local backups</h2>
 <p>Google/Firebase may process your name, email, user identifier and account-linked cleaning totals/streak/badges/XP/level for authentication and progress backup. Authentication SDKs may also process technical device, usage and diagnostic information for security and operation. Apple manages App Store purchases. These transfers are not used for advertising or selling data. Contact backups, staged file trash and profile images inside Cleaningo are excluded from iOS device backup; a source folder's own cloud service operates separately.</p>
 <h2>Account (optional)</h2>
-<p>If you sign in with email, Google or Apple, authentication is handled by Firebase Authentication (Google). The password you enter for email sign-in is sent to Firebase for verification and is not saved by Cleaningo. When signed in, only usage totals — items cleaned, space freed, streak, badges, XP and level — are backed up to Firebase; this backup never includes photos, contacts or file content. Signing in is optional and does not unlock paid features. From Profile → Delete account, confirm your identity to remove cloud progress and any retired invitation records, then the login account. Failed steps show an error and can be retried; cloud backup stays paused until deletion finishes. Local cleaning progress and your library remain. App Store subscriptions must be cancelled separately.</p>
+<p>If you sign in with email, Google or Apple, authentication is handled by Firebase Authentication (Google). The password you enter for email sign-in is sent to Firebase for verification and is not saved by Cleaningo. When signed in, only usage totals — items cleaned, space freed, streak, badges, XP and level — are backed up to Firebase; this backup never includes photos, contacts or file content. Signing in is optional and does not unlock paid features. From Profile → Delete account, confirm your identity to remove cloud progress and any retired invitation records, then the login account. Failed steps show an error and can be retried; backup on this device stays paused until deletion finishes. Local cleaning progress and your library remain. App Store subscriptions must be cancelled separately.</p>
+
+<h2>Temporary account-deletion protection</h2>
+<p>Versions that use account-deletion protection create a temporary security record containing only the account identifier and deletion dates to prevent old sessions from restoring deleted cloud progress. It is scheduled for deletion after 48 hours; automatic database cleanup may take additional time. It contains no name, email, progress or media content. If account deletion cannot finish, backup on this device stays paused while you retry.</p>
 
 <h2>Subscriptions</h2>
 <p>Premium subscriptions are processed through the App Store. Apple handles payment-card details and does not pass them to Cleaningo. Cleaningo uses product, transaction and subscription status supplied by StoreKit to verify your subscription.</p>
